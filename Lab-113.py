@@ -1,5 +1,8 @@
+#Composite Data Types
+#Created inventory data in .csv format - car_fleet.csv
 import csv
 import copy
+#Vehicle inventory dictionary template
 myVehicle = {
     "vin" : "<empty>",
     "make" : "<empty>" ,
@@ -13,6 +16,7 @@ myVehicle = {
 for key, value in myVehicle.items():
     print("{} : {}".format(key, value))
 
+#Copy .csv data into a list of dictionaries
 myInventoryList = []
 
 with open('car_fleet.csv', newline='') as csvFile:
@@ -34,7 +38,8 @@ with open('car_fleet.csv', newline='') as csvFile:
             currentVehicle["zeroSixty"] = row[6]  
             currentVehicle["mileage"] = row[7]  
             myInventoryList.append(currentVehicle)  
-            lineCount += 1  
+            lineCount += 1
+#Print the vehicle inventory list 
 print(f'Processed {lineCount} lines.')
 for myCarProperties in myInventoryList:
     for key, value in myCarProperties.items():
