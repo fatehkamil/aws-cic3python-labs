@@ -1,7 +1,8 @@
 #Assigning variables, lists, and dictionaries
 
 # Python3.11  
-# Coding: utf-8  
+# Coding: utf-8 
+ 
 # Store the human preproinsulin sequence in a variable called preproinsulin:  
 preproInsulin = "malwmrllpllallalwgpdpaaafvnqhlcgshlvealylvcgergffytpktrreaedlqvgqvelgggpgagslqplalegslqkrgiveqcctsicslyqlenycn"  
 # Store the remaining sequence elements of human insulin in variables:  
