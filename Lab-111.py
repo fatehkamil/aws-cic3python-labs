@@ -26,3 +26,4 @@ print(type(myFavoriteFruitDictionary))
 print(myFavoriteFruitDictionary["Pateh"])   #Pateh's favorite fruit
 print(myFavoriteFruitDictionary["Pako"])    #Pako's favorite fruit
 print(myFavoriteFruitDictionary["Piti"])    #Piti's favorite fruit
+#End
